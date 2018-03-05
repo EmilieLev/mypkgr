@@ -38,6 +38,7 @@ y<-NULL
   }
   if(!Log){ y<-exp(y)}
 cat("pouet")
+#change travis
 # ret<-list("vector",2)
 #  ret$x<-x
 # ret$y<-y
