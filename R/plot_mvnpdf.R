@@ -13,4 +13,7 @@
 #'
 plot.mvnpdf <- function(x, ...) {
   plot(x$x, x$y, type = "l", ...)
+  #plot function
+  #test
+  #a que coucou
 }
