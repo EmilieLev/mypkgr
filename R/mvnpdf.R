@@ -37,7 +37,7 @@ y<-NULL
     y<-c(y,yj)
   }
   if(!Log){ y<-exp(y)}
-
+cat("pouet")
 # ret<-list("vector",2)
 #  ret$x<-x
 # ret$y<-y
