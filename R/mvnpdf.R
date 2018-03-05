@@ -25,7 +25,7 @@ mvnpdf<-function(x,mean=rep(0,nrow(x)),varcovM=diag(nrow(x)),Log=TRUE){
   #for(i in 1:p){
   #y<-(1/(((2*pi)^(p/2))*(det.var)^(1/2)))* exp(-1/2*(t(t(x)-mean))*solve(varcovM)*(t(x)-mean))}
 #}
-
+### test changement Chloe
 n<-ncol(x)
 p<-nrow(x)
 x0<-x-mean
